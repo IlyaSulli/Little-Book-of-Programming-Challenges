@@ -12,4 +12,3 @@ endtime = time.time()
 close = (endtime-starttime) - 10
 close = round(close,1)
 print("You were off by ",close,"seconds")
-
